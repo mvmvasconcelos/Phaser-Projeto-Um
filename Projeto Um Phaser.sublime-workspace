@@ -1,0 +1,278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"last_filter": "sideb",
+		"selected_items":
+		[
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push Tags"
+			],
+			[
+				"git tag",
+				"Git: Tag"
+			],
+			[
+				"log",
+				"Git: Quick Log"
+			],
+			[
+				"comm",
+				"Git: Quick Commit"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"quic",
+				"Git: Quick Add"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"add",
+				"Git: Add Remote"
+			],
+			[
+				"comma",
+				"Git: Custom Command"
+			],
+			[
+				"psuh",
+				"Git: Push"
+			],
+			[
+				"tag",
+				"Git: Add Signed Tag"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git: d",
+				"Git: Diff"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"git status"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/vinicius/Projetos/Phaser"
+	],
+	"file_history":
+	[
+		"/C/Users/vinicius/Projetos/Phaser/state1.js",
+		"/C/Users/vinicius/Projetos/Phaser/main.js",
+		"/C/Users/vinicius/Projetos/Phaser/index.html",
+		"/C/Users/vinicius/Projetos/phaser/Readme.md",
+		"/C/Users/vinicius/git-inicio/Readme.md",
+		"/C/Users/vinicius/AppData/Roaming/Sublime Text 3/Packages/User/SublimeGit.sublime-settings",
+		"/C/Users/vinicius/AppData/Roaming/Sublime Text 3/Packages/User/git.sublime-commands",
+		"/C/Users/vinicius/AppData/Roaming/Sublime Text 3/Packages/SublimeGit/SublimeGit.sublime-settings",
+		"/C/Users/vinicius/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/d/Users/vinicius/Desktop/ASF 3/config/ASF.json",
+		"/d/Users/vinicius/Desktop/ASF 3/config/Bengonos.json",
+		"/d/Users/vinicius/Desktop/ASF 3/config/joexadrez.json",
+		"/D/Users/vinicius/Downloads/giveawayHelper.user.js"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 102.0
+	},
+	"output.git-custom":
+	{
+		"height": 102.0
+	},
+	"output.git-push":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "Projeto Um Phaser.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
