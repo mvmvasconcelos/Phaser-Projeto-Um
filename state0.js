@@ -86,6 +86,7 @@ function changeTexture (){
 
 function changeState(i, stateNum) {
 	game.state.start('state' + stateNum);
+	console.log('state' + stateNum);
 }
 
 function addkeyCallback(key, fn, args){
