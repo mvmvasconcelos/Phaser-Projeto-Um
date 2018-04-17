@@ -3,6 +3,7 @@ var  centerX = 1500 / 2;
 var  centerY = 1000 / 2;
 var  clovis;
 var  speed = 6;
+var key1, key2;
 
 demo.state0 = function () {};
 demo.state0.prototype = {
@@ -26,15 +27,27 @@ demo.state0.prototype = {
 		clovis = game.add.sprite(centerX, centerY, 'clovisIdle'); 
 		clovis.anchor.setTo(0.5, 0.5); //Define posição X, Y da imagem
 		clovis.scale.setTo(0.7, 0.7); //Define proporção como 70% do original
+		
 		game.physics.enable(clovis); //Adiciona física ao objeto.
 		clovis.body.collideWorldBounds = true; //Habilita a colisão do personagem com os limites do mundo.
+		
 		clovis.animations.add('idle', [0, 1, 2, 3, 4, 5]);
 		clovis.animations.add('walk', [0, 1, 2, 3, 4]);
+		clovis.animations.play('idle', 6, true);
 
 		game.camera.follow(clovis); //Faz com que a câmera siga Clovis
-		/*eadzone é a área que delimita até onde o personagem consegue andar
+		/*Deadzone é a área que delimita até onde o personagem consegue andar
 		sem a camera seguí-lo.*/
 		game.camera.deadzone = new Phaser.Rectangle(centerX - 300, 0, 600, 1000);
+
+		key1 = game.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
+		key1.onDown.add(changeTexture);
+		key2 = game.input.keyboard.addKey(Phaser.Keyboard.LEFT);
+		key2.onDown.add(changeTexture);
+		key1.onUp.add(changeTexture);
+		key2.onUp.add(changeTexture);
+
+		
 
 	},
 	update: function(){
@@ -42,15 +55,16 @@ demo.state0.prototype = {
 		if (game.input.keyboard.isDown(Phaser.Keyboard.RIGHT)) {
 			clovis.x += speed;
 			clovis.scale.setTo(0.7, 0.7);
-			clovis.animations.play('walk', 14, true);
+			clovis.animations.play('walk', 12, true);
 		}else if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT)) {
 			clovis.x -= speed;
 			clovis.scale.setTo(-0.7, 0.7); //Inverte o sentido horizontal do sprite
-			clovis.animations.play('walk', 14, true);
+			clovis.animations.play('walk', 12, true);
+
 		} else {
-			//clovis.animations.stop('walk');
-			clovis.animations.play('idle', 10, true);
+			clovis.animations.play('idle', 6, true);
 		}
+
 		if (game.input.keyboard.isDown(Phaser.Keyboard.DOWN)) {
 			clovis.y += speed;
 		}else if (game.input.keyboard.isDown(Phaser.Keyboard.UP)) {
@@ -61,6 +75,14 @@ demo.state0.prototype = {
 		}
 	}
 };
+
+function changeTexture (){
+	if (clovis.key === 'clovisIdle') {
+		clovis.loadTexture('clovisWalk', 0, false);
+	} else {
+		clovis.loadTexture('clovisIdle', 0, false);
+	} 
+}
 
 function changeState(i, stateNum) {
 	game.state.start('state' + stateNum);
