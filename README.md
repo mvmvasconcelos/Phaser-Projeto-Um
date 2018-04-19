@@ -17,3 +17,6 @@ Disparo de projétil, detecção de colisão e eliminação de objeto ao detecta
 
 ### State3
 Botões, mouse clique, sons ao clicar/soltar, mudar para outros states, imagem botão com spritesheet
+
+### State4
+Tweens básicos
