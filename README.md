@@ -14,3 +14,6 @@ Criação de tilemap, movimentação e colisão com obstáculos
 
 ### State2
 Disparo de projétil, detecção de colisão e eliminação de objeto ao detectar colisão. Ganhão e bala seguindo ponteiro do mouse.
+
+### State3
+Botões, mouse clique, sons ao clicar/soltar, mudar para outros states, imagem botão com spritesheet
