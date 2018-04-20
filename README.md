@@ -20,3 +20,6 @@ Botões, mouse clique, sons ao clicar/soltar, mudar para outros states, imagem b
 
 ### State4
 Tweens básicos
+
+### State5
+Demo plataforma 2d, aceleração, drag
