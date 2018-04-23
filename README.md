@@ -31,3 +31,6 @@ Vulcão com partículas e time events
 
 ### State7
 Detecção de swipe, mudando ângulo da seta conforme direção. Uso de Math.abs
+
+### State8
+Implementação de texto
