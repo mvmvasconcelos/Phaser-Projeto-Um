@@ -6,6 +6,8 @@ Sublime Text 3
 Aseprite
 Tiled
 
+Teclas 0-9 para trocar de state.
+
 ### State0
 Exemplo de movimentação, animação e limite de mundo (world Bound). Também adiciona chamada para os outros States
 
@@ -26,3 +28,6 @@ Demo plataforma 2d, aceleração, drag
 
 ### State6
 Vulcão com partículas e time events
+
+### State7
+Detecção de swipe, mudando ângulo da seta conforme direção. Uso de Math.abs
