@@ -6,6 +6,8 @@ Sublime Text 3
 Aseprite
 Tiled
 
+
+
 Teclas 0-9 para trocar de state.
 
 ### State0
@@ -34,3 +36,6 @@ Detecção de swipe, mudando ângulo da seta conforme direção. Uso de Math.abs
 
 ### State8
 Implementação de texto
+
+### State9
+Integração com básica Firebase, montando um sistema de score simples. Conforme tutorial, precisei instalar Node.js e bower, entretanto também precisei instalar Chocolatey para conseguir instalar o node (graças ao windows) e no fim das contas não precisa de nada disso, enfim.. Mas ainda ficou faltando autenticação com Firebase, já que o BD está aberto. De qualquer forma, foi um bom aprendizado.
